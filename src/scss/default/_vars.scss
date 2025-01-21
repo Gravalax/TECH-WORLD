@@ -1,8 +1,24 @@
 :root {
   // Цвета
-  --color-white: #fff;
-  --color-black: #000;
+  --main--color: #575757;
+  --title--color: #4a4a4a;
+  --logo--color: #f03a76;
 
+  --background--header: linear-gradient(134deg, #beeef5 0%, #bdaae1 33.85%, #27a3d5 69.79%, #f79bb9 100%);
+  --nav--background--color: rgba(255, 255, 255, 0.5);
+  --background--main--color: #FFEBF1;
+  --background-second--color: #fafaff;
+  --background--footer--color: #F03A76;
+
+  --btn--text--color: #2c2b2b;
+  --btn--background--color: #ff90b5;
+
+  --underline-1--color: #f03a76; 
+  --underline-2--color: #14b8e4; 
+  --underline-3--color: #f03a76; 
+  --underline-4--color: #683cb8; 
+  --underline-5--color: #f03a76; 
+  
   // Шрифты
   --font-family: "Merriweather";
 
@@ -10,4 +26,17 @@
   --content-width: 1120px;
   --container-offset: 15px;
   --container-width: calc(var(--content-width) + (var(--container-offset) * 2));
+
+  // padding btn
+
+  --padding--btn--size: 10px 50px;
+  --padding--btnForm--size: 10px 257px; 
+
+  // тени
+  --boxShadow--btn--header: 10px 10px 20px 0 #8d8786, -10px -10px 20px 0 rgba(255, 255, 255, 0.3);
+  --boxShadow--btn--main:  0 10px 15px 0 rgba(240, 58, 118, 0.18);
+
+
+  // 
+
 }
