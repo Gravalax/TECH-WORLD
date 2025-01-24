@@ -1,0 +1,18 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  vertical-align: center;
+
+  background-color: var(--background--nav--color);
+
+  &__logo {
+    margin: 15px 0;
+
+    font-family: 'Lato', arial;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 178%;
+    color: var(--logo--color);
+  }
+}

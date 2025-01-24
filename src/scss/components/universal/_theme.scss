@@ -1,0 +1,48 @@
+.theme {
+  position: relative;
+  &__btn {
+    width: 90px;
+    height: 25px;
+    display: block;
+    padding: 0;
+
+    color: #000;
+    text-align: left;
+    
+    background-color: inherit;
+    border: none;
+    
+    position: relative;
+
+    &::after {
+      content: 'v';
+      display: block;
+      width: 0;
+      height: 0;
+      
+
+      position: absolute;
+      right: 16px;
+      top: 0px;
+    }
+  }
+
+  &__dropdown {
+    display: none;
+    
+    background-color: var(--background--main--color);
+    color: var(--main--color);
+    position: absolute;
+    left: -40px;
+    top: 30px;
+  }
+
+  &__dropdown-item {
+    padding: 15px 40px;
+    margin: 0;
+    text-align: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  }
+
+
+}

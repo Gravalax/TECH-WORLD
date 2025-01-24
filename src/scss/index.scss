@@ -6,12 +6,14 @@
 @import "./default/vendor";
 @import "./default/settings";
 @import "./default/universal";
+@import './default/container';
 
 // Блоки
-
+@import './components/universal/theme';
 // Компоненты страницы
 
 @import "./components/universal/preloader";
 @import "./components/universal/header";
+@import './components/universal/nav';
 @import "./components/index/hero";
 @import "./components/universal/footer";
