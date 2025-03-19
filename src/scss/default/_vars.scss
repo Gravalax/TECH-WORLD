@@ -10,8 +10,15 @@
   --background-second--color: #fafaff;
   --background--footer--color: #F03A76;
 
+  //кнопка
   --btn--text--color: #2c2b2b;
   --btn--background--color: #ff90b5;
+
+  --padding--btn--size: 10px 50px;
+  --padding--btnForm--size: 10px 50px; 
+
+  --boxShadow--btn--header: : 0 10px 15px 0 rgba(240, 58, 118, 0.18);
+  --boxShadow--btn--main:  0 10px 15px 0 rgba(240, 58, 118, 0.18);
 
   --btn-theme-color: #000;
 
@@ -28,17 +35,129 @@
   --content-width: 1120px;
   --container-offset: 15px;
   --container-width: calc(var(--content-width) + (var(--container-offset) * 2));
+}
 
-  // padding btn
+
+[data-theme="dark"] {
+    // Цвета
+    --main--color: #C7E0FA;
+    --title--color: #DEECF9;
+    --logo--color: #f03a76;
+  
+    --background--header: #000;
+    --background--nav--color: #000;;
+    --background--main--color: #181823;
+    --background-second--color: #000;
+    --background--footer--color: #000;
+
+    //кнопка
+    --btn--text--color: #FFFFFF;
+    --btn--background--color: #f03a76;
+
+    --padding--btn--size: 10px 50px;
+    --padding--btnForm--size: 10px 50px; 
+  
+    --boxShadow--btn--header: : 0 10px 15px 0 rgba(240, 58, 118, 0.18);
+    --boxShadow--btn--main:  0 10px 15px 0 rgba(240, 58, 118, 0.18);
+  
+    --btn-theme-color: #fff;
+  
+    --underline-1--color: #f03a76; 
+    --underline-2--color: #14b8e4; 
+    --underline-3--color: #f03a76; 
+    --underline-4--color: #683cb8; 
+    --underline-5--color: #f03a76; 
+}
+
+
+[data-theme="light"] {
+    --background--header: #fff;
+    --background--nav--color: #fff;
+    --background--main--color: #fff;
+    --background-second--color: #fafaff;
+    --background--footer--color: #fde8ef;
+  
+    //кнопки
+    --btn--text--color: #fff;
+    --btn--background--color: #f03a76;;
+
+    --padding--btn--size: 10px 50px;
+    --padding--btnForm--size: 10px 50px; 
+  
+    // тени
+    --boxShadow--btn--header:  0 10px 15px 0 rgba(240, 58, 118, 0.18);
+    --boxShadow--btn--main:  0 10px 15px 0 rgba(240, 58, 118, 0.18);
+  
+    --btn-theme-color: #000;
+  
+    --underline-1--color: #f03a76; 
+    --underline-2--color: #14b8e4; 
+    --underline-3--color: #f03a76; 
+    --underline-4--color: #683cb8; 
+    --underline-5--color: #f03a76; 
+}
+
+
+[data-theme="glow"] {
+  // Цвета
+  --main--color: #FFFFFF;
+  --title--color: #fff;
+  --logo--color: #fff;
+
+  --background--header: #6865bf;;
+  --background--nav--color: #6865bf;
+  --background--main--color: #5129a6;
+  --background-second--color: #6865bf;
+  --background--footer--color: #6865bf;
+
+  //кнопки
+  --btn--text--color: #fff;
+  --btn--background--color: #6865bf;
+
+  --boxShadow--btn--header: 10px 10px 20px 0 #3f3c89, -10px -10px 20px 0 rgba(255, 255, 255, 0.3);
+  --boxShadow--btn--main:   10px 10px 20px 0 #2a2947, -10px -10px 20px 0 rgba(255, 255, 255, 0.3);
 
   --padding--btn--size: 10px 50px;
   --padding--btnForm--size: 10px 257px; 
 
-  // тени
-  --boxShadow--btn--header: 10px 10px 20px 0 #8d8786, -10px -10px 20px 0 rgba(255, 255, 255, 0.3);
-  --boxShadow--btn--main:  0 10px 15px 0 rgba(240, 58, 118, 0.18);
+
+  --btn-theme-color: #fff;
+
+  --underline-1--color: #1bf2a3; 
+  --underline-2--color: #1bf2a3; 
+  --underline-3--color: #6865bf; 
+  --underline-4--color: #8435f2; 
+  --underline-5--color: #8435f2; 
+}
 
 
-  // 
+[data-theme="neutral"] {
+    // Цвета
+  --main--color: #575757;
+  --title--color: #4a4a4a;
+  --logo--color: #fff;
 
+  --background--header: #d9c5c1;
+  --background--nav--color: #d9c5c1;
+  --background--main--color: #f2e5e4;
+  --background-second--color: #d8cfcb;
+  --background--footer--color: #d9c5c1;
+
+  //кнопка
+  --btn--text--color: #8c766d;
+  --btn--background--color: #f2e5e4;
+
+  --padding--btn--size: 10px 50px;
+  --padding--btnForm--size: 10px 257px; 
+
+  --boxShadow--btn--header: : 10px 10px 20px 0 #8d8786, -10px -10px 20px 0 rgba(255, 255, 255, 0.3);
+  --boxShadow--btn--main: 5px 10px 15px 0 #9a9696, -5px -10px 15px 0 rgba(255, 255, 255, 0.8);
+
+  --btn-theme-color: #000;
+
+  --underline-1--color: #f03a76; 
+  --underline-2--color: #14b8e4; 
+  --underline-3--color: #f03a76; 
+  --underline-4--color: #683cb8; 
+  --underline-5--color: #f03a76; 
 }
